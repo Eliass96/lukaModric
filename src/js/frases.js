@@ -12,8 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
     "El éxito no es el final, el fracaso no es fatal: lo que cuenta es el coraje de continuar.",
   ];
 
-  const randomIndex = Math.floor(Math.random() * frases.length);
-  const randomQuote = frases[randomIndex];
+  // Seleccionar una frase al azar
+  const randomQuote = "";
+  do {
+    const randomIndex = Math.floor(Math.random() * frases.length);
+    randomQuote = frases[randomIndex];
+  } while (document.getElementById("randomQuote").innerText === randomQuote);
 
   document.getElementById("randomQuote").innerText = randomQuote;
 });
