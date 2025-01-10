@@ -251,6 +251,10 @@ iframe {
   margin-bottom: 20px;
 }
 
+body.dark-mode iframe {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
 /* Estilos de la galería */
 .swiper-container {
   width: 100%;
