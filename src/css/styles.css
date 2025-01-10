@@ -245,7 +245,7 @@ body.dark-mode .images img {
 /* Estilos de la página de biografía */
 iframe {
   width: 100%;
-  height: 650px;
+  max-height: 650px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin-bottom: 20px;
