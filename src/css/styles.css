@@ -245,14 +245,16 @@ body.dark-mode .images img {
 /* Estilos de la página de biografía */
 iframe {
   width: 100%;
-  max-height: 650px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 636px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   margin-bottom: 20px;
+  border: 1px solid #ccc;
 }
 
 body.dark-mode iframe {
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgb(5, 5, 5);
 }
 
 /* Estilos de la galería */
@@ -304,7 +306,6 @@ body.dark-mode .swiper-slide iframe {
 }
 
 .card {
-  border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: rgb(241, 241, 241);
   transition: all 0.3s ease-in-out;

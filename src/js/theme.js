@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
     themeIcon.classList.replace("bi-moon", "bi-sun");
     iframe.src =
       "https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1iDCJ63Psx6COW96lNeMHvx4zEFg3KTkSydP6LEcswvQ&font=Default&lang=en&initial_zoom=2&height=650";
+  } else {
+    iframe.src =
+      "https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=10Tzlkh2hAS6tt7t8Z_J_E9km9UCMH93X3shjtTelKIw&font=Default&lang=en&initial_zoom=2&height=650";
   }
 
   // Cambiar el tema cuando se hace el toggle
